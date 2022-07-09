@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.app{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    background: rgb(36, 36, 36);
+    color: white;
+    height: 98vh;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+h1{
+    padding: 15px 0;
+    font-size: 52px;
+    border-bottom: 2px solid rgb(62, 150, 252);
+}
+ul{
+    list-style: none;
+    background: rsed;
+    text-align: initial;
+    height: 74.5%;
+    background: greensyellow;
+    overflow: auto;
+}
+li{
+    font-size: 24px;
+    border-bottom: 2px solid rgb(62, 150, 252);
+    padding: 5px;
+    padding-left: 25px;
+}
+span{
+    color: rgb(62, 150, 252);
+}
+.botoes{
+    width: 100%;
+    padding: 20px 0;
+    cursor: pointer;
+    border: 1px solid transparent;
+    color: white;
+    display: none;
+    font-size: 25px;
+}
+
+#iniciar{
+    background: rgb(62, 150, 252);
+    display: initial;
+}
+#pausa{
+    background: rgb(248, 71, 71);
+}
+#marcar{
+    background: rgb(87, 86, 86);
+}
+.controle{
+    display: flex;
+}
